@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities / Gallery - Stand Alone Senior High School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <button id="menu-toggle" class="menu-button">☰</button>
+        <div id="menu" class="menu-content">
+            <a href="index.html">Home</a>
+            <a href="activities.html">Activities / Gallery</a>
+            <a href="schedule.html">Schedule Events</a>
+            <a href="organization.html">Organizational Chart</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Our School Activities</h1>
+            <p>Engage in enriching and exciting events that foster learning and personal growth.</p>
+            <a href="schedule.html" class="btn">View Upcoming Events</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Activities Section -->
+        <section class="intro">
+            <h2>Featured Activities</h2>
+            <p>At Stand Alone Senior High School, we offer a variety of extracurricular activities designed to help students grow and develop in both academic and social areas. Here are some of our highlighted events:</p>
+        </section>
+
+        <!-- Activity Highlights Section -->
+        <section class="highlights">
+            <div class="highlight">
+                <h3>Sports Tournament</h3>
+                <p>Compete with fellow students in a range of sports events, from basketball to volleyball.</p>
+            </div>
+            <div class="highlight">
+                <h3>Art and Craft Exhibition</h3>
+                <p>Showcase your creativity through paintings, sculptures, and other artistic creations.</p>
+            </div>
+            <div class="highlight">
+                <h3>Student Leadership Camp</h3>
+                <p>Develop leadership skills through workshops, teamwork exercises, and outdoor activities.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-container">
+            <h2>Activity Gallery</h2>
+            <p>Here are some moments captured from our recent events. Click on the images to see more!</p>
+            <div class="gallery-container">
+                <img src="assets/images/sports-event.jpg" alt="Sports Tournament">
+                <img src="assets/images/art-exhibition.jpg" alt="Art Exhibition">
+                <img src="assets/images/leadership-camp.jpg" alt="Leadership Camp">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Stand Alone Senior High School. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100073970676519"><img src="images.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/icons/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/icons/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const menuButton = document.querySelector('.menu-button');
+        const menuContent = document.querySelector('.menu-content');
+        
+        menuButton.addEventListener('click', () => {
+            menuContent.classList.toggle('active');
+        });
+    });
+    </script>
+</body>
+</html>

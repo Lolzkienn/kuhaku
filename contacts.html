@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Stand Alone Senior High School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <button id="menu-toggle" class="menu-button">☰</button>
+        <div id="menu" class="menu-content">
+            <a href="index.html">Home</a>
+            <a href="activities.html">Activities / Gallery</a>
+            <a href="schedule.html">Schedule Events</a>
+            <a href="organization.html">Organizational Chart</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We are here to assist you! Get in touch with Stand Alone Senior High School for any inquiries.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Information Section -->
+        <section class="intro">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like more information about our programs, feel free to reach out to us. Our team is happy to assist you with any inquiries you may have.</p>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Contact Details Section -->
+        <section class="contact-details">
+            <h2>Our Contact Details</h2>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+            <p><strong>Email:</strong> contact@standalone.edu</p>
+            <p><strong>Address:</strong> 123 School Avenue, City, Country</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Stand Alone Senior High School. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100073970676519"><img src="images.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/icons/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="assets/icons/instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Optional JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const menuButton = document.querySelector('.menu-button');
+        const menuContent = document.querySelector('.menu-content');
+        
+        menuButton.addEventListener('click', () => {
+            menuContent.classList.toggle('active');
+        });
+    });
+    </script>
+</body>
+</html>

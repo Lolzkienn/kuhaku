@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Events - Stand Alone Senior High School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <button id="menu-toggle" class="menu-button">☰</button>
+        <div id="menu" class="menu-content">
+            <a href="index.html">Home</a>
+            <a href="activities.html">Activities / Gallery</a>
+            <a href="schedule.html">Schedule Events</a>
+            <a href="organization.html">Organizational Chart</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Upcoming Events Schedule</h1>
+            <p>Stay updated on the upcoming events and activities at Stand Alone Senior High School!</p>
+            <a href="activities.html" class="btn">Explore Activities</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Events Schedule Section -->
+        <section class="intro">
+            <h2>Upcoming Events</h2>
+            <p>Our school hosts a variety of exciting events and activities throughout the year. Below is the schedule for upcoming events. Make sure to mark your calendars!</p>
+        </section>
+
+        <!-- Event Calendar / Schedule -->
+        <section class="schedule">
+            <div class="schedule-item">
+                <h3>Sports Tournament</h3>
+                <p><strong>Date:</strong> February 14, 2024</p>
+                <p><strong>Location:</strong> School Sports Complex</p>
+                <p><strong>Description:</strong> A friendly sports competition featuring basketball, volleyball, and track events. Open to all students.</p>
+            </div>
+            <div class="schedule-item">
+                <h3>Art and Craft Exhibition</h3>
+                <p><strong>Date:</strong> March 25, 2024</p>
+                <p><strong>Location:</strong> School Hall</p>
+                <p><strong>Description:</strong> A showcase of student artwork including paintings, sculptures, and crafts. Join us in celebrating creativity!</p>
+            </div>
+            <div class="schedule-item">
+                <h3>Student Leadership Camp</h3>
+                <p><strong>Date:</strong> April 10-12, 2024</p>
+                <p><strong>Location:</strong> Outdoor Retreat Center</p>
+                <p><strong>Description:</strong> An inspiring leadership camp where students develop teamwork, communication, and leadership skills.</p>
+            </div>
+            <div class="schedule-item">
+                <h3>Science Fair</h3>
+                <p><strong>Date:</strong> May 20, 2024</p>
+                <p><strong>Location:</strong> School Auditorium</p>
+                <p><strong>Description:</strong> Students will present their scientific research projects in various fields of study. A chance to learn and explore.</p>
+            </div>
+            <div class="schedule-item">
+                <h3>Graduation Ceremony</h3>
+                <p><strong>Date:</strong> June 5, 2024</p>
+                <p><strong>Location:</strong> School Auditorium</p>
+                <p><strong>Description:</strong> A grand celebration for the graduating class. A special moment to commemorate academic achievements.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Stand Alone Senior High School. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100073970676519"><img src="images.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/icons/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/icons/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const menuButton = document.querySelector('.menu-button');
+        const menuContent = document.querySelector('.menu-content');
+        
+        menuButton.addEventListener('click', () => {
+            menuContent.classList.toggle('active');
+        });
+    });
+    </script>
+</body>
+</html>

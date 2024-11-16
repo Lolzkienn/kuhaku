@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stand Alone Senior High School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Stand Alone Senior High School</h1>
+            <p>Empowering students to succeed in a fast-paced world.</p>
+            <a href="contacts.html" class="btn">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <button id="menu-toggle" class="menu-button">☰</button>
+        <div id="menu" class="menu-content">
+            <a href="index.html">Home</a>
+            <a href="activities.html">Activities / Gallery</a>
+            <a href="schedule.html">Schedule Events</a>
+            <a href="organization.html">Organizational Chart</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Intro Section -->
+        <section class="intro">
+            <h2>Our Mission & Vision</h2>
+            <p>We are committed to fostering a community of inspired learners, future leaders, and compassionate individuals. Our goal is to prepare students with the skills they need for success in higher education and beyond.</p>
+        </section>
+
+        <!-- Strand Offers Section -->
+        <section class="strands">
+            <h2>Our Strand Offers</h2>
+            <div class="strand-container">
+                <div class="strand">
+                    <h3>STEM</h3>
+                    <p>Science, Technology, Engineering, and Mathematics prepare students for technical and scientific careers.</p>
+                </div>
+                <div class="strand">
+                    <h3>GAS</h3>
+                    <p>The General Academic Strand offers flexibility for students exploring diverse fields of study.</p>
+                </div>
+                <div class="strand">
+                    <h3>HUMSS</h3>
+                    <p>Humanities and Social Sciences focus on developing critical thinking and leadership in social and human services.</p>
+                </div>
+                <div class="strand">
+                    <h3>ICT</h3>
+                    <p>Information and Communications Technology equips students with skills in programming, web development, and multimedia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="highlights">
+            <div class="highlight">
+                <h3>Dedicated Teachers</h3>
+                <p>Our experienced faculty is passionate about guiding and mentoring students.</p>
+            </div>
+            <div class="highlight">
+                <h3>Advanced Facilities</h3>
+                <p>We provide top-notch resources, including modern classrooms, labs, and sports facilities.</p>
+            </div>
+            <div class="highlight">
+                <h3>Student-Centered Programs</h3>
+                <p>Our curriculum includes diverse academic and extracurricular activities to nurture all aspects of student growth.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Stand Alone Senior High School. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100073970676519"><img src="images.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/icons/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/icons/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript for Interactivity -->
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuButton = document.querySelector('.menu-button');
+        const menuContent = document.querySelector('.menu-content');
+        
+        menuButton.addEventListener('click', () => {
+            menuContent.classList.toggle('active');
+        });
+    });
+    </script>
+    
+</body>
+</html>
